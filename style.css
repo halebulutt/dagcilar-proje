@@ -1,0 +1,686 @@
+*{
+    font-family:"Segoe UI" ,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.navbar-logo {
+    width:300px;
+    height:60px;
+    align-items: center;
+}
+
+.ana-logo:hover {
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+.ilet-btn:hover {
+    text-decoration: none;
+    border-bottom: none !important;
+
+}
+
+.navbars {
+    background-color: white;
+    color: black;
+    align-items:center;
+}
+
+.home {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 33px;
+}
+
+.home .link a:hover {
+    border-bottom: 3px solid red;
+}
+
+.home li a {
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px 30px 30px 30px;
+}
+
+.iletisim-button a {
+    padding: 12px;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: red;
+}
+
+.lang-selection {
+    text-decoration: none;
+    list-style: none;
+}
+
+.baslik {
+    position: relative; 
+    width: 100%; 
+}
+
+.baslik .resim {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.ek-yazi {
+    color:white;
+    font-size: 4.2rem;
+    position: absolute;
+    margin-top: -215px;
+    margin-left: 602px;
+}
+
+.orta-resim {
+    width: 75%;
+    margin-top: 55px;
+    margin-bottom: 123px;
+    margin-left: 174px;
+    margin-right: 145px
+}
+
+.sola-kaydirr {
+    float:right;
+    padding: 11px 1px 11px 33px;
+}
+
+.hakkinda {
+    font-size: 50px;
+    color:rgba(44, 40, 40, 0.788);
+    margin-left: 248px;
+}
+
+.orta-resim p {
+    font-size: 14px;
+    margin-left: 252px;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 25px;
+    font-size: 50px !important;
+    border-style: solid !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+    padding-left: 19px !important;
+    padding-right: 25px !important;
+    height: 60px;
+    color: white !important;
+    top: 50%;
+}
+
+.owl-prev span {
+    margin-top: -18px !important;
+    display: block;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 17px;
+    top: 290px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+    margin: 5px 7px;
+    background: #D6D6D6 !important;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    border: 3px solid #aca9a9;
+    border-radius: 100%;
+}
+
+.owl-next {
+    position: absolute;
+    right: 25px;
+    font-size: 50px !important;
+    border-style: solid !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+    padding-left: 19px !important;
+    padding-right: 25px !important;
+    height: 60px;
+    color: white !important;
+    top: 50%;
+}
+
+.owl-next:focus {
+    outline: none;
+}
+
+.owl-prev:focus {
+    outline: none;
+
+}
+
+.owl-next span {
+    margin-top: -18px !important;
+    display: block;
+}
+
+.ana-baslik {
+    position: absolute;
+    z-index: -32423432;
+    margin-top: -85px;
+    margin-left: -60px;
+}
+
+.alt-yazi {
+    margin-top: -36px;
+    margin-left: 0px;
+    z-index: 1;
+}
+
+.metinler {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ara-img {
+    width: 900px;
+    margin:auto;
+}
+
+.sola-kaydir {
+    float: right;
+    padding: 0 10px 10px 0;
+}
+
+.ara-img h1 {
+    font-size: 106px;
+    color: #efefee;
+    font-weight: 700;
+}
+
+.ara-img h2 {
+    font-size: 47px;
+}
+.ara-img h3 {
+    font-size: 45px;
+}
+
+.ara-img p {
+    font-size: 14px;
+}
+
+.secenek {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.resim a {
+    display: block;
+    color: black;
+}
+
+.location h1 {
+    font-size: 90px;
+    color: #efefee;
+    font-weight: 700;
+}
+
+.location h2 {
+    font-size: 50px;
+}
+
+.lok {
+    position: absolute;
+    z-index: 0;
+    margin-top: -63px;
+}
+
+.ilet {
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 44px;
+    z-index: 1;
+}
+
+.alt-bilgi {
+    position: absolute;
+    top: 108px;
+}
+
+.form-control {
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 !important;
+}
+
+.form-control button {
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    width: 25%;
+    height: 40px;
+}
+
+.kirmiziButon {
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    display:inline-block;
+    text-align: center;
+}
+
+.kirmiziButon:hover {
+    background-color: rgb(148, 20, 20);
+    text-decoration: none;
+    color:#fff;
+}
+
+.iframe-map {
+    align-self: center;
+}
+
+.container h2 {
+    color: #464242c5;
+    font-size: 25px;
+}
+
+.container span {
+    color: red;
+    font-size: 25px;
+}
+
+.form-row {
+    width: 90%;
+}
+
+.footerlogo {
+    width: 75%;
+}
+
+ .footer {
+    color: white;
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    justify-content: space-between;
+}
+
+.footericerik {
+    background-color: red; 
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.footer div h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.footer-link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.icon-container {
+    color: white;
+}
+
+.footer-link h5 {
+    color: white;
+    border-bottom: solid 4px  rgba(0, 0, 0, 0.137);
+    display: inline-block;
+}
+
+.footer-link p {
+    color: white;
+}
+.footer-link a:hover {
+    color: white;
+    text-decoration: none;
+}
+.icon-social-media {
+    display: inline-block ;
+    width: 40px;
+    margin-bottom: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 10px;
+}
+
+.social-icons {
+    text-align: right;
+    padding-right: 25px;
+    font-size: 22px;
+}
+
+.icon-social-media:hover {
+    background-color: white;
+    color: rgb(33, 33, 46);
+}
+
+.navbars .link {
+    display: inline-block;
+}
+
+.dilSec {
+    font-size: 18px;
+}
+
+.dilSec ul li a {
+    text-align: left;
+    margin-left: 0;
+}
+
+.dilSec ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.dilSec ul li {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.dilSec:hover ul{
+    display: block;
+}
+
+.dilSec ul li a {
+    font-size: 18px;
+}
+
+.dilSec ul li a:hover {
+    cursor: pointer;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-social-media {
+    position: absolute;
+    height: 100%;
+    left: 97%;
+    top: 43%;
+}
+
+.main-social-media .icon-social-media {
+    color: #000
+}
+
+.baslik {
+    position: relative;
+    overflow: hidden;
+}
+
+.subpage-social-icons {
+    position: absolute;
+    height: 100%;
+    left: 96%;
+    top: 11%;
+}
+
+.subpage-social-icons .icon-social-media {
+    color: #000
+}
+
+.kabin-image {
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(53, 52, 52, 0.644);
+    position: relative;
+    text-align: center;
+}
+
+.kabin-grid {
+    width: 80%;
+    margin: 4em auto 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.kabin-grid-item {
+    width: 330px;
+    height: 330px;
+    position: relative;
+    margin: 1em;
+}
+
+.kabin-title {
+    text-align: center;
+}
+
+.kabin-image:hover {
+    color: red;
+    opacity: 40px;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #c60d0dc4;
+    z-index: 1;
+    color: red;
+    border: 1px solid red;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.kabin-grid-item:hover .info {
+    display: block;
+}
+
+.urunDetayButon {
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    width: 50%;
+    padding: 8px 13px;
+    margin: 10em auto 0 auto;
+    background-color: white;
+    color: red;
+}
+
+.urunDetayButon:hover {
+    text-decoration: none;
+}
+
+.info p {
+    margin-top: 3em;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.mini-menu-container {
+    width: 90%;;
+    height: 30%;
+    border: 1px solid #07070757;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: -13px;
+}
+  
+.mini-item-container {
+    margin: 1em;
+    width: 30%;;
+    height: 15%;
+}
+  
+.menu-img-container {
+    margin: 1em;
+}
+
+.kabin-resim {
+    width: 30%;
+    height: 30%;
+}
+
+.menu-img-container h6 {
+    display: inline;
+    padding: 20px;
+}
+
+.btn-primary {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin: 7px;
+}
+
+.btn-primary:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+
+.mini-foto-buton {
+    text-decoration: none;
+    color: rgba(85, 82, 82, 0.993);
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+    margin: 7px;
+}
+
+.mini-foto-buton:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+
+.sola-kaydirma {
+    float: left;
+    width: 22%;
+    height: 22%;
+    margin-left: 400px;
+    padding: 64px 8px 38px 9px;
+}
+.new-holland {
+    font-size: 25px;
+    color: rgb(82, 81, 81);
+}
+
+.mini-slayt-text {
+    text-align: justify;
+    font-size: 14px;
+    padding: 100px 0px 90px 0px;
+    margin-right: 465px;
+}
+
+.mini-text-button1 {
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.mini-foto-button1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-container-kabin {
+    position: relative;
+    overflow: hidden;
+}
+
+.traktor-marka-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.kabin-carousel .owl-prev,
+.kabin-carousel .owl-next {
+    display: none !important;
+}
+
+.kabin-carousel .owl-dots {
+    position: initial !important;
+    display: block !important;
+}
+
+.mini-text-buton2 {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 15px;
+    margin: 7px;
+
+}
+
+.mini-text-buton2:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.modal-footer .gonderbuton {
+    color: white;
+    background: red;
+    padding: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.modal-footer .gonderbuton:hover {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+.mb-3 {
+    display: flex;
+}
+
+.col-form-label {
+    margin-right: 20px;
+    margin-left: 10px;
+}

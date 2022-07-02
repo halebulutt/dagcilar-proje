@@ -1,0 +1,120 @@
+.navbar-logo{
+    width:300px;
+    height:60px;
+    align-items: center;
+}
+.navbars{
+    background-color: white;
+    color: black;
+    /* display:flex; */
+    align-items:center;
+}
+.home {
+    background-color: white;
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.home li a {
+    position: relative;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px 30px 30px 30px;
+}
+.iletisim-button a{
+    padding: 12px;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: red;
+}
+.lang-selection {
+    text-decoration: none;
+    list-style: none;
+}
+.orta-resim {
+    width: 1300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 150px;
+}
+.sola-kaydirr{
+    float:right;
+    padding:0 10px 10px 0;
+}
+.hakkinda {
+    font-size: 50px;
+    color:rgba(44, 40, 40, 0.788);
+    margin-left: 38px;
+}
+.orta-resim p {
+    font-size: 16px;
+    margin-left: 40px;
+}
+.footerlogo {
+    width: 75%;
+}
+ .footer {
+    /* background-color: red; */
+    color: white;
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.footericerik{
+    background-color: red; 
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer div {
+    text-align: center;
+}
+.footer div h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.footer-link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.icon-container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: white;
+
+}
+.footer-link h5 {
+    color: white;
+    border-bottom: solid 4px  rgba(0, 0, 0, 0.137);
+    display: inline-block;
+    
+}
+.footer-link p {
+    color: white;
+}
+.icon-social-media {
+    display: inline-block ;
+    width: 40px;
+    /* margin-top: 20px; */
+    margin-bottom: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 10px;
+}
+.social-icons{
+    text-align: right;
+    padding-right: 25px;
+}
